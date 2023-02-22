@@ -1,0 +1,176 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .logo {
+    display: flex;
+    align-items: center;
+    position: relative;
+  }
+  
+  #logo {
+    width: 80px;
+    height: 80px;
+    margin-right: 20px;
+  }
+  
+  .dropdown {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: rgb(0, 0, 0);
+    padding: 10px;
+    border: 1px solid rgb(0, 0, 0);
+    z-index: 1;
+    
+  }
+  
+  .dropdown a {
+    display: block;
+    padding: 12px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    
+  }
+  
+  .logo:hover .dropdown {
+    display: block;
+  }
+  
+  .menu-items {
+    display: flex;
+  }
+  
+  .menu-items button {
+    margin-right: 5px;
+    margin-bottom: 15px;
+    background: none;
+    border: none;
+    font-size: 16px;
+    cursor: pointer ;
+  }
+  
+  .menu-items button:hover {
+    color: #ffffff;
+  }
+  
+  nav {
+    width: 100vw;
+    height: 15vh;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 30px;
+  }
+  
+  .logo {
+    display: flex;
+    align-items: center;
+    height: 70px;
+  }
+  
+  .logo img {
+    height: 100%;
+  }
+  
+  .menu {
+    display: flex;
+    align-items: center;
+  }
+  
+  .menu button {
+    background-color: transparent;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin-left: 10px;
+    cursor: pointer;
+  }
+  
+  
+  
+  /* First section */
+  main {
+    width: 100vw;
+    height: 85vh;
+    background-image: url(./RESOURCES/portadabonsai.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .large {
+    font-size: 70px;
+    color: white;
+    text-align: center;
+    width: 50%;
+    margin-bottom: 20px;
+    
+  }
+  
+  h2 {
+    margin-bottom: 10px;
+    color: white;
+  }
+  
+  p {
+    max-width: 300px;
+    text-align: center;
+    margin-bottom: 20px;
+    color: rgb(255, 255, 255);
+  }
+  
+
+
+/*second section */
+
+#second 
+    {
+        width: 100vw;
+        height: 85vh;
+        background-image: url(./RESOURCES/cuidabonsai.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        display: flex;
+        flex-direction: column;
+        color: rgb(0, 0, 0);
+        align-items: center;
+        justify-content: center;
+      }
+      
+      .large {
+        font-size: 70px;
+        color: white;
+        text-align: center;
+        width: 50%;
+        margin-bottom: 20px;
+        
+      }
+      
+      h2 {
+        margin-bottom: 10px;
+        color: white;
+      }
+      
+      p {
+        max-width: 300px;
+        text-align: center;
+        margin-bottom: 20px;
+        color: rgb(255, 255, 255);
+      }
+      
